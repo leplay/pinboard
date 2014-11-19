@@ -6,7 +6,7 @@
 
 
 function KeyDownEvent(event) {
-    if (String.fromCharCode(event.which) == "Q"&& event.ctrlKey && !event.altKey && !event.metaKey) {
+    if (String.fromCharCode(event.which) == "Q" && event.ctrlKey && !event.altKey && !event.metaKey) {
 
     var q=location.href;
     if(document.getSelection){
@@ -27,3 +27,4 @@ function KeyDownEvent(event) {
  }
 
  document.addEventListener("keydown", KeyDownEvent, false);
+ 
